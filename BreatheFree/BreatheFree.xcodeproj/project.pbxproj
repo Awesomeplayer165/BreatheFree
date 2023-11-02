@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8414F7A32AF330DD00BC8066 /* BreatheFreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */; };
+		8414F7A72AF330DE00BC8066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7A62AF330DE00BC8066 /* Assets.xcassets */; };
+		8414F7AA2AF330DE00BC8066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7A92AF330DE00BC8066 /* Preview Assets.xcassets */; };
+		8414F7B42AF330DE00BC8066 /* BreatheFreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7B32AF330DE00BC8066 /* BreatheFreeTests.swift */; };
+		8414F7BE2AF330DE00BC8066 /* BreatheFreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7BD2AF330DE00BC8066 /* BreatheFreeUITests.swift */; };
+		8414F7C02AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7BF2AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift */; };
+		8414F7D22AF3313B00BC8066 /* AirQualityInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */; };
+		8414F7D42AF3313B00BC8066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7CF2AF3313B00BC8066 /* ContentView.swift */; };
+		8414F7D52AF3313B00BC8066 /* Subviews in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7D02AF3313B00BC8066 /* Subviews */; };
+		8414F7D92AF3321400BC8066 /* BreatheLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 8414F7D82AF3321400BC8066 /* BreatheLogic */; };
+		8414F7DC2AF3321F00BC8066 /* BreatheShared in Frameworks */ = {isa = PBXBuildFile; productRef = 8414F7DB2AF3321F00BC8066 /* BreatheShared */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8414F7B02AF330DE00BC8066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8414F7972AF330DD00BC8066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414F79E2AF330DD00BC8066;
+			remoteInfo = BreatheFree;
+		};
+		8414F7BA2AF330DE00BC8066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8414F7972AF330DD00BC8066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414F79E2AF330DD00BC8066;
+			remoteInfo = BreatheFree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8414F79F2AF330DD00BC8066 /* BreatheFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeApp.swift; sourceTree = "<group>"; };
+		8414F7A62AF330DE00BC8066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8414F7A92AF330DE00BC8066 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8414F7AF2AF330DE00BC8066 /* BreatheFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreatheFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414F7B32AF330DE00BC8066 /* BreatheFreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeTests.swift; sourceTree = "<group>"; };
+		8414F7B92AF330DE00BC8066 /* BreatheFreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreatheFreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414F7BD2AF330DE00BC8066 /* BreatheFreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeUITests.swift; sourceTree = "<group>"; };
+		8414F7BF2AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityInformationView.swift; sourceTree = "<group>"; };
+		8414F7CF2AF3313B00BC8066 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../Downloads/Fume-Rewrite-main-2/FumeRewrite/FumeRewrite/ContentView.swift"; sourceTree = "<group>"; };
+		8414F7D02AF3313B00BC8066 /* Subviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subviews; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8414F79C2AF330DD00BC8066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414F7D92AF3321400BC8066 /* BreatheLogic in Frameworks */,
+				8414F7DC2AF3321F00BC8066 /* BreatheShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7AC2AF330DE00BC8066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7B62AF330DE00BC8066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8414F7962AF330DD00BC8066 = {
+			isa = PBXGroup;
+			children = (
+				8414F7A12AF330DD00BC8066 /* BreatheFree */,
+				8414F7B22AF330DE00BC8066 /* BreatheFreeTests */,
+				8414F7BC2AF330DE00BC8066 /* BreatheFreeUITests */,
+				8414F7A02AF330DD00BC8066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8414F7A02AF330DD00BC8066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8414F79F2AF330DD00BC8066 /* BreatheFree.app */,
+				8414F7AF2AF330DE00BC8066 /* BreatheFreeTests.xctest */,
+				8414F7B92AF330DE00BC8066 /* BreatheFreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8414F7A12AF330DD00BC8066 /* BreatheFree */ = {
+			isa = PBXGroup;
+			children = (
+				8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */,
+				8414F7A62AF330DE00BC8066 /* Assets.xcassets */,
+				8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */,
+				8414F7CF2AF3313B00BC8066 /* ContentView.swift */,
+				8414F7D02AF3313B00BC8066 /* Subviews */,
+				8414F7A82AF330DE00BC8066 /* Preview Content */,
+			);
+			path = BreatheFree;
+			sourceTree = "<group>";
+		};
+		8414F7A82AF330DE00BC8066 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8414F7A92AF330DE00BC8066 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8414F7B22AF330DE00BC8066 /* BreatheFreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8414F7B32AF330DE00BC8066 /* BreatheFreeTests.swift */,
+			);
+			path = BreatheFreeTests;
+			sourceTree = "<group>";
+		};
+		8414F7BC2AF330DE00BC8066 /* BreatheFreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8414F7BD2AF330DE00BC8066 /* BreatheFreeUITests.swift */,
+				8414F7BF2AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift */,
+			);
+			path = BreatheFreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8414F79E2AF330DD00BC8066 /* BreatheFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414F7C32AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFree" */;
+			buildPhases = (
+				8414F79B2AF330DD00BC8066 /* Sources */,
+				8414F79C2AF330DD00BC8066 /* Frameworks */,
+				8414F79D2AF330DD00BC8066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreatheFree;
+			packageProductDependencies = (
+				8414F7D82AF3321400BC8066 /* BreatheLogic */,
+				8414F7DB2AF3321F00BC8066 /* BreatheShared */,
+			);
+			productName = BreatheFree;
+			productReference = 8414F79F2AF330DD00BC8066 /* BreatheFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8414F7AE2AF330DE00BC8066 /* BreatheFreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414F7C62AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFreeTests" */;
+			buildPhases = (
+				8414F7AB2AF330DE00BC8066 /* Sources */,
+				8414F7AC2AF330DE00BC8066 /* Frameworks */,
+				8414F7AD2AF330DE00BC8066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8414F7B12AF330DE00BC8066 /* PBXTargetDependency */,
+			);
+			name = BreatheFreeTests;
+			productName = BreatheFreeTests;
+			productReference = 8414F7AF2AF330DE00BC8066 /* BreatheFreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8414F7B82AF330DE00BC8066 /* BreatheFreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414F7C92AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFreeUITests" */;
+			buildPhases = (
+				8414F7B52AF330DE00BC8066 /* Sources */,
+				8414F7B62AF330DE00BC8066 /* Frameworks */,
+				8414F7B72AF330DE00BC8066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8414F7BB2AF330DE00BC8066 /* PBXTargetDependency */,
+			);
+			name = BreatheFreeUITests;
+			productName = BreatheFreeUITests;
+			productReference = 8414F7B92AF330DE00BC8066 /* BreatheFreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8414F7972AF330DD00BC8066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8414F79E2AF330DD00BC8066 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8414F7AE2AF330DE00BC8066 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8414F79E2AF330DD00BC8066;
+					};
+					8414F7B82AF330DE00BC8066 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8414F79E2AF330DD00BC8066;
+					};
+				};
+			};
+			buildConfigurationList = 8414F79A2AF330DD00BC8066 /* Build configuration list for PBXProject "BreatheFree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8414F7962AF330DD00BC8066;
+			packageReferences = (
+				8414F7D72AF3321400BC8066 /* XCRemoteSwiftPackageReference "BreatheLogic" */,
+				8414F7DA2AF3321F00BC8066 /* XCRemoteSwiftPackageReference "BreatheShared" */,
+			);
+			productRefGroup = 8414F7A02AF330DD00BC8066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8414F79E2AF330DD00BC8066 /* BreatheFree */,
+				8414F7AE2AF330DE00BC8066 /* BreatheFreeTests */,
+				8414F7B82AF330DE00BC8066 /* BreatheFreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8414F79D2AF330DD00BC8066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414F7D52AF3313B00BC8066 /* Subviews in Resources */,
+				8414F7AA2AF330DE00BC8066 /* Preview Assets.xcassets in Resources */,
+				8414F7A72AF330DE00BC8066 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7AD2AF330DE00BC8066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7B72AF330DE00BC8066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8414F79B2AF330DD00BC8066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414F7D42AF3313B00BC8066 /* ContentView.swift in Sources */,
+				8414F7D22AF3313B00BC8066 /* AirQualityInformationView.swift in Sources */,
+				8414F7A32AF330DD00BC8066 /* BreatheFreeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7AB2AF330DE00BC8066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414F7B42AF330DE00BC8066 /* BreatheFreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414F7B52AF330DE00BC8066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414F7C02AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift in Sources */,
+				8414F7BE2AF330DE00BC8066 /* BreatheFreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8414F7B12AF330DE00BC8066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414F79E2AF330DD00BC8066 /* BreatheFree */;
+			targetProxy = 8414F7B02AF330DE00BC8066 /* PBXContainerItemProxy */;
+		};
+		8414F7BB2AF330DE00BC8066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414F79E2AF330DD00BC8066 /* BreatheFree */;
+			targetProxy = 8414F7BA2AF330DE00BC8066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8414F7C12AF330DE00BC8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8414F7C22AF330DE00BC8066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8414F7C42AF330DE00BC8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreatheFree/Preview Content\"";
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8414F7C52AF330DE00BC8066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreatheFree/Preview Content\"";
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8414F7C72AF330DE00BC8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreatheFree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreatheFree";
+			};
+			name = Debug;
+		};
+		8414F7C82AF330DE00BC8066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreatheFree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreatheFree";
+			};
+			name = Release;
+		};
+		8414F7CA2AF330DE00BC8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreatheFree;
+			};
+			name = Debug;
+		};
+		8414F7CB2AF330DE00BC8066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4MZRFLMLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobtrentini.BreatheFreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreatheFree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8414F79A2AF330DD00BC8066 /* Build configuration list for PBXProject "BreatheFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414F7C12AF330DE00BC8066 /* Debug */,
+				8414F7C22AF330DE00BC8066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414F7C32AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414F7C42AF330DE00BC8066 /* Debug */,
+				8414F7C52AF330DE00BC8066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414F7C62AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414F7C72AF330DE00BC8066 /* Debug */,
+				8414F7C82AF330DE00BC8066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414F7C92AF330DE00BC8066 /* Build configuration list for PBXNativeTarget "BreatheFreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414F7CA2AF330DE00BC8066 /* Debug */,
+				8414F7CB2AF330DE00BC8066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8414F7D72AF3321400BC8066 /* XCRemoteSwiftPackageReference "BreatheLogic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Awesomeplayer165/BreatheLogic";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		8414F7DA2AF3321F00BC8066 /* XCRemoteSwiftPackageReference "BreatheShared" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Awesomeplayer165/BreatheShared";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8414F7D82AF3321400BC8066 /* BreatheLogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8414F7D72AF3321400BC8066 /* XCRemoteSwiftPackageReference "BreatheLogic" */;
+			productName = BreatheLogic;
+		};
+		8414F7DB2AF3321F00BC8066 /* BreatheShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8414F7DA2AF3321F00BC8066 /* XCRemoteSwiftPackageReference "BreatheShared" */;
+			productName = BreatheShared;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8414F7972AF330DD00BC8066 /* Project object */;
+}
