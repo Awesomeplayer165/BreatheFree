@@ -16,7 +16,7 @@ In California, wildfire seasons have become more frequent, catastrophic covering
 
 ## Software Stack
 
-To build BreatheFree, I used Xcode and SwiftUI to code the iPhone, iPad, Apple Watch, and Mac app. A lot of the magic, however, happens on the backend, where I have built a server in Swift and Vapor for the calculations. Using Machine Learning and Deep Neural Networks, I intelligently categorize hundreds of thousands of data points around the world into cities and remove outlier information based on wildfires and other current events.
+To build BreatheFree, I used Xcode and SwiftUI to code the iPhone, iPad, Apple Watch, and Mac app. A lot of the magic, however, happens on the backend, where I have built a server in Swift and Vapor for the calculations. Using Machine Learning and Deep Neural Networks, it intelligently categorize hundreds of thousands of data points around the world into cities and remove outlier information based on wildfires and other current events.
 
 Additionally, since there was code shared between the server and my app, like how to convert particulate matter to the US EPA standard, I separated the code into a package, so the server and app both use the same calculation method. So now if I want to change how air quality is calculated, I can change it once and my phone and server will both stay consistent in calculating air quality.
 
