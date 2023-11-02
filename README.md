@@ -2,7 +2,6 @@
 
 <img src="https://github.com/Awesomeplayer165/BreatheFree/assets/70717139/9b45a700-059f-4c3b-b561-000780ac6dd2" alt="iphone default screen" width="300"/>
 <img src="https://github.com/Awesomeplayer165/BreatheFree/assets/70717139/53aae384-c9bc-490c-ab7c-b86f9b1d4477" alt="iphone default screen" width="300"/>
-<img src="https://github.com/Awesomeplayer165/BreatheFree/assets/70717139/57cfa8bf-be1a-48fb-8afa-5baa6423b511" alt="iphone default screen" width="300"/>
 
 ---
 
