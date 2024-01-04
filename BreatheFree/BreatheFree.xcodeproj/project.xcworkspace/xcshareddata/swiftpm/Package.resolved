@@ -23,14 +23,14 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Awesomeplayer165/BreatheLogic",
       "state" : {
-        "branch" : "main",
-        "revision" : "68cb7c116cb27fa189d174c7c78d2189aab2f43b"
+        "branch" : "alt",
+        "revision" : "b8c46bc386c23395b764135f83f69a2f7f615b13"
       }
     },
     {
       "identity" : "breatheshared",
       "kind" : "remoteSourceControl",
-      "location" : "http://github.com/Awesomeplayer165/BreatheShared",
+      "location" : "https://github.com/Awesomeplayer165/BreatheShared",
       "state" : {
         "branch" : "main",
         "revision" : "64265a3e2c680afd39ea98f9e4b5a75eb0406142"

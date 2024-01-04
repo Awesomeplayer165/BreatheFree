@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5681BA2B475AC8003867F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5681B92B475AC8003867F8 /* ContentView.swift */; };
+		1D5681BC2B476032003867F8 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 1D5681BB2B476032003867F8 /* .env */; };
 		8414F7A32AF330DD00BC8066 /* BreatheFreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */; };
 		8414F7A72AF330DE00BC8066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7A62AF330DE00BC8066 /* Assets.xcassets */; };
 		8414F7AA2AF330DE00BC8066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7A92AF330DE00BC8066 /* Preview Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		8414F7BE2AF330DE00BC8066 /* BreatheFreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7BD2AF330DE00BC8066 /* BreatheFreeUITests.swift */; };
 		8414F7C02AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7BF2AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift */; };
 		8414F7D22AF3313B00BC8066 /* AirQualityInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */; };
-		8414F7D42AF3313B00BC8066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414F7CF2AF3313B00BC8066 /* ContentView.swift */; };
 		8414F7D52AF3313B00BC8066 /* Subviews in Resources */ = {isa = PBXBuildFile; fileRef = 8414F7D02AF3313B00BC8066 /* Subviews */; };
 		8414F7D92AF3321400BC8066 /* BreatheLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 8414F7D82AF3321400BC8066 /* BreatheLogic */; };
 		8414F7DC2AF3321F00BC8066 /* BreatheShared in Frameworks */ = {isa = PBXBuildFile; productRef = 8414F7DB2AF3321F00BC8066 /* BreatheShared */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D5681B92B475AC8003867F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D5681BB2B476032003867F8 /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		8414F79F2AF330DD00BC8066 /* BreatheFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeApp.swift; sourceTree = "<group>"; };
 		8414F7A62AF330DE00BC8066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		8414F7BD2AF330DE00BC8066 /* BreatheFreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeUITests.swift; sourceTree = "<group>"; };
 		8414F7BF2AF330DE00BC8066 /* BreatheFreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheFreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityInformationView.swift; sourceTree = "<group>"; };
-		8414F7CF2AF3313B00BC8066 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../Downloads/Fume-Rewrite-main-2/FumeRewrite/FumeRewrite/ContentView.swift"; sourceTree = "<group>"; };
 		8414F7D02AF3313B00BC8066 /* Subviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subviews; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		8414F7962AF330DD00BC8066 = {
 			isa = PBXGroup;
 			children = (
+				1D5681BB2B476032003867F8 /* .env */,
 				8414F7A12AF330DD00BC8066 /* BreatheFree */,
 				8414F7B22AF330DE00BC8066 /* BreatheFreeTests */,
 				8414F7BC2AF330DE00BC8066 /* BreatheFreeUITests */,
@@ -105,7 +108,7 @@
 				8414F7A22AF330DD00BC8066 /* BreatheFreeApp.swift */,
 				8414F7A62AF330DE00BC8066 /* Assets.xcassets */,
 				8414F7CD2AF3313B00BC8066 /* AirQualityInformationView.swift */,
-				8414F7CF2AF3313B00BC8066 /* ContentView.swift */,
+				1D5681B92B475AC8003867F8 /* ContentView.swift */,
 				8414F7D02AF3313B00BC8066 /* Subviews */,
 				8414F7A82AF330DE00BC8066 /* Preview Content */,
 			);
@@ -252,6 +255,7 @@
 				8414F7D52AF3313B00BC8066 /* Subviews in Resources */,
 				8414F7AA2AF330DE00BC8066 /* Preview Assets.xcassets in Resources */,
 				8414F7A72AF330DE00BC8066 /* Assets.xcassets in Resources */,
+				1D5681BC2B476032003867F8 /* .env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8414F7D42AF3313B00BC8066 /* ContentView.swift in Sources */,
 				8414F7D22AF3313B00BC8066 /* AirQualityInformationView.swift in Sources */,
+				1D5681BA2B475AC8003867F8 /* ContentView.swift in Sources */,
 				8414F7A32AF330DD00BC8066 /* BreatheFreeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,7 +618,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Awesomeplayer165/BreatheLogic";
 			requirement = {
-				branch = main;
+				branch = alt;
 				kind = branch;
 			};
 		};
